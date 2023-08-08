@@ -5,3 +5,8 @@
 .h1 {
   color: grey;
 }
+.div {
+  display: flex;
+  flex-direction: column;
+
+}
