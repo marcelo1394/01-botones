@@ -1,0 +1,28 @@
+.aside {
+  background-color:#FAFBFD ;
+  /* height: 100vh; */
+  /* width: 40vh; */
+  height: 1000px;
+  width: 300px;
+  padding: 80px;
+  font-size: 20px;
+}
+.menu {
+  padding-top: 200px;
+  color: grey;
+
+}
+.ul {
+  list-style: none;
+}
+li{
+  margin-top: 40px;
+}
+li:hover {
+  color: black;
+  font-size: 23px;
+}
+
+
+
+
