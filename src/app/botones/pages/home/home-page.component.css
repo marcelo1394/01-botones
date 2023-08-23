@@ -1,12 +1,25 @@
 .home {
-  padding: 80px;
+  margin: 50px 0 20px 50px;
 
 }
 .h1 {
   color: grey;
 }
+.encabezado {
+  font-size: 11px;
+  position: absolute;
+
+}
 .div {
+  margin: 50px 300px 20px 50px;
   display: flex;
   flex-direction: column;
 
 }
+
+.divrow {
+  margin: 10px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+}
+

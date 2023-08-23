@@ -1,14 +1,162 @@
 <div class="home">
-
   <h1 class="h1">Buttons</h1>
 
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button<span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton'" [label]="'Default'"></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado">&:Hover, &:Focus</p>
+    <br><br>a
+    <app-boton [btn]="'boton-grey'" [label]="'Default'"></app-boton>
+  </div>
+</div>
+
+<div class="divrow">
+  <div class="div">
+
+    <p class="encabezado"><span><</span>Button  variant="outline" <span>/</span>></p>
+    <br><br>
+    <app-boton  [btn]="'boton-outline'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado">&:Hover, &:Focus</p>
+    <br><br>
+    <app-boton [btn]="'boton-outline-hover'" [label]="'Default'"></app-boton>
+  </div>
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  variant="text" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-texto'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado">&:Hover, &:Focus</p>
+    <br><br>
+    <app-boton [btn]="'boton-texto-hover'" [label]="'Default'" ></app-boton>
+  </div>
 
 </div>
 
-<div class="div">
-  <app-boton></app-boton>
-  <app-boton></app-boton>
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button disableShadow <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-disable-shadow'" [label]="'Default'" ></app-boton>
+  </div>
+
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button disabled <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-disable'" [label]="'Disabled'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  variant="text" disabled<span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-disable-text'" [label]="'Disabled'" ></app-boton>
+  </div>
+
 </div>
 
 
+<div class="divrow">
 
+  <div class="div">
+    <p class="encabezado"><span><</span>Button starIcon="local_grocery-store" <span>/</span>></p>
+    <br><br>
+    <app-boton  [btn]="'boton-icono'" [label]="'Default'" ></app-boton>
+  </div>
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button endIcon="local_grocery-store" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-icono-2'" [label]="'Default'"  ></app-boton>
+  </div>
+
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p  class="encabezado"><span><</span>Button  size="sm" <span>/</span>></p>
+    <br><br>
+      <app-boton [btn]="'boton-sm'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  size="md" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-md'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  size="lg" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-lg'" [label]="'Default'" ></app-boton>
+  </div>
+
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  color="default" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-default'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  color="primary" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-primary'" [label]="'Primary'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  color="secondary" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-secondary'" [label]="'Secondary'" ></app-boton>
+  </div>
+  <div class="div">
+    <p class="encabezado"><span><</span>Button  color="danger" <span>/</span>></p>
+    <br><br>
+    <app-boton [btn]="'boton-danger'" [label]="'Danger'" ></app-boton>
+  </div>
+
+</div>
+
+<div class="divrow">
+
+  <div class="div">
+    <p class="encabezado">&:Hover, &:Focus</p>
+    <br><br>
+    <app-boton [btn]="'boton-default-hover'" [label]="'Default'" ></app-boton>
+  </div>
+  <div class="div">
+    <br><br>
+    <app-boton [btn]="'boton-primary-hover'" [label]="'Primary'" ></app-boton>
+  </div>
+  <div class="div">
+    <br><br>
+    <app-boton [btn]="'boton-secondary-hover'" [label]="'Secondary'" ></app-boton>
+  </div>
+  <div class="div">
+    <br><br>
+    <app-boton [btn]="'boton-danger-hover'" [label]="'Danger'" ></app-boton>
+  </div>
+
+</div>
+
+
+<div class="home">
+  Created by Marcelo - devChallenges.io
+
+</div>
